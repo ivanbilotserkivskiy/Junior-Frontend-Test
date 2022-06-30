@@ -1,0 +1,44 @@
+[
+    {
+        "id": "id-1",
+        "picture": "Cards/ProductA.png",
+        "label": "Apollo Running Short",
+        "curency": "$",
+        "price": "50.00"
+    },
+    {
+        "id": "id-2",
+        "picture": "Cards/ProductB.png",
+        "label": "Apollo Running Short",
+        "curency": "$",
+        "price": "50.00"
+    },
+    {
+        "id": "id-3",
+        "picture": "Cards/ProductC.png",
+        "label": "Apollo Running Short",
+        "curency": "$",
+        "price": "50.00"
+    },
+    {
+        "id": "id-4",
+        "picture": "Cards/ProductD.png",
+        "label": "Apollo Running Short",
+        "curency": "$",
+        "price": "50.00"
+    },
+    {
+        "id": "id-5",
+        "picture": "Cards/ProductA.png",
+        "label": "Apollo Running Short",
+        "curency": "$",
+        "price": "50.00"
+    },
+    {
+        "id": "id-6",
+        "picture": "Cards/ProductB.png",
+        "label": "Apollo Running Short",
+        "curency": "$",
+        "price": "50.00"
+    }
+]

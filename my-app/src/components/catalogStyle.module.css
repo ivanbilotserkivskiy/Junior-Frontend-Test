@@ -1,0 +1,58 @@
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    margin-bottom: 102px;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.listPicture {
+    max-width: 356px;
+    height: 338px;
+    display: block;
+}
+
+.listItem {
+    padding-left: 0px;
+    list-style: none;
+    display: inline-block;
+
+
+}
+
+.listLabel {
+    font-style: 400;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    display: block;
+}
+
+.listPrice {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-style: 500;
+}
+
+.listInfoDiv {
+    margin-top: 24px;
+}
+
+.listDiv {
+    padding: 16px;
+    /* margin-right: 40px; */
+}
+
+.listItem:not(:nth-child(3n)) {
+    margin-right: 40px;
+}
+
+.container {
+    padding: 0, 0;
+}
+
+.list {
+    padding: 0px, 0px;
+    margin-left: 60px;
+    margin-bottom: 110px;
+}

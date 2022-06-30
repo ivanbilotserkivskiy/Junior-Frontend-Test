@@ -1,0 +1,89 @@
+.header {
+
+    width: 1440 px;
+    height: 80px;
+}
+
+.container {
+    width: 1440px;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+}
+
+.navList {
+    padding-left: 0px;
+    list-style: none;
+    display: flex;
+    margin-right: 364px;
+    margin-top: 28px;
+    margin-left: 100px;
+}
+
+.navListItem {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.navListLink {
+    text-decoration: none;
+    color: #1D1F22;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+.navListItemCurrent {
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #5ECE7B;
+}
+
+.navListItemCurrent::after {
+    content: '';
+    position: absolute;
+    display: flex;
+    transform-origin: start;
+    top: 68px;
+    left: 96px;
+    width: 62px;
+    height: 2px;
+    background-color: #5ECE7B;
+    font-size: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.logo {
+    margin-right: 400px;
+    width: 31px;
+    height: 28px;
+    margin-top: 30px;
+}
+
+.actionsDiv {
+    display: flex;
+    justify-content: end;
+    width: 204px;
+    height: 40px;
+    align-items: center;
+    margin-top: 23px;
+}
+
+.curency {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.curencyPick {
+    margin-bottom: 0px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
