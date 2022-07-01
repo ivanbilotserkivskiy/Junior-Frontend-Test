@@ -49,10 +49,41 @@
 
 .container {
     padding: 0, 0;
+    max-width: 1440px;
 }
 
 .list {
     padding: 0px, 0px;
     margin-left: 60px;
     margin-bottom: 110px;
+    max-width: 1440px;
 }
+
+.productLink {
+    text-decoration: none;
+    color: #1D1F22;
+}
+
+.cartLink {
+    position: relative;
+
+    left: 300px;
+    bottom: 110px;
+    display: none;
+    padding: 0px, 0px;
+    margin: 0px, 0px;
+}
+
+
+.listItem:hover .cartLink {
+    display: flex;
+    padding: 0px, 0px;
+    margin: 0px, 0px;
+
+}
+
+.cartImg {
+    position: absolute;
+}
+
+/* .listDiv:hover {} */
